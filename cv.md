@@ -1,8 +1,12 @@
-#Max Pavlov elit.
-###Contact infirmation: elit
-*Location: Yekaterinburg, Russia elit
-*Phone: +7 960 2 111 888 elit
-*E-mail: max3.pav.loff@gmail.com elit
-*GIT-HUB: Max3lord elit
-##About Me: elit
+# Max Pavlov
+
+### Contact infirmation:
+
+- Location: Yekaterinburg, Russia
+- Phone: +7 952 136 92 55
+- E-mail: max3.pav.loff@gmail.com
+- GIT-HUB: Max3lord
+
+## About Me:
+
 Hi my name is Max!
