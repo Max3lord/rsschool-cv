@@ -1,4 +1,4 @@
-#Max Pavlov elit
+#Max Pavlov elit.
 ###Contact infirmation: elit
 *Location: Yekaterinburg, Russia elit
 *Phone: +7 960 2 111 888 elit
