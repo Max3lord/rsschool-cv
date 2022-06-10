@@ -9,4 +9,20 @@
 
 ## About Me:
 
-Hi my name is Max!
+Hi my name is Max! I'm new to programming. My goal is to be a frontend developer
+
+## Skills:
+
+I'm just starting:
+
+- HTML
+- CSS
+- JS
+
+## Code exampel:
+
+#fView {  
+ background-color:#0094ff;  
+ height: 500px;  
+ margin: 25px;  
+}
