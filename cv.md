@@ -9,11 +9,11 @@
 
 ## About Me:
 
-Hi my name is Max! I'm new to programming. My goal is to be a frontend developer
+_Hi my name is Max! I'm new to programming. My goal is to be a frontend developer_
 
 ## Skills:
 
-I'm just starting:
+_I'm just starting:_
 
 - HTML
 - CSS
@@ -26,3 +26,17 @@ I'm just starting:
  height: 500px;  
  margin: 25px;  
 }
+
+### Work experience:
+
+_My work experience is_: rs-school:
+
+- https://github.com/Max3lord
+
+### Education:
+
+_During the course:_ RS-School
+
+### Language:
+
+_English level is_ A1
