@@ -166,6 +166,7 @@ a:hover:before {
 	list-style: none;
 	text-align: right;
 	text-decoration: none;
+	height: 50px;
 }
 
 
