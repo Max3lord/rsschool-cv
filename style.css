@@ -380,7 +380,6 @@ body {
  }
 
  .nav {
-	display: block;
 	width: 100%;
  }
 
@@ -392,11 +391,27 @@ body {
  }
 
  .nav-link {
+	position: relative;
 	padding: 0 20px;
 	line-height: 50px;
 	transition: .3s;
 	text-decoration: none;
 	color: white;
+ }
+
+ .nav-link::before {
+	content: "";
+	position: absolute;
+	left: 0px;
+   bottom: -5px;
+   width: 0%;
+   height: 2px;
+	background-color: orange;
+	transition: .5s;
+ }
+
+ .nav-link:hover:before {
+	width: 100%;
  }
 
  /* style header end */
