@@ -354,10 +354,12 @@
 
 html {
 	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
 }
 
 body {
 	min-height: 100vh;
+	min-width: 320px;
 	margin: 0;
 	padding: 0px;
 	display: flex;
@@ -368,12 +370,35 @@ body {
 .container {
 	max-width: 1440px;
 	margin: 0 auto;
+	min-height: 50px;
+ }
+
+ /* style header start */
+
+ .header {
+	background-color: olive;
+ }
+
+ .nav {
+	display: block;
+	width: 100%;
  }
 
  .nav-list {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	list-style: none;
  }
+
+ .nav-link {
+	padding: 0 20px;
+	line-height: 50px;
+	transition: .3s;
+	text-decoration: none;
+	color: white;
+ }
+
+ /* style header end */
 
  /* end CV style */
