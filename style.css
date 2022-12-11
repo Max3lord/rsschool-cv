@@ -348,8 +348,21 @@
 
  /* start CV style */
 
+* {
+	box-sizing: border-box;
+}
+
 html {
 	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
  /* end CV style */
