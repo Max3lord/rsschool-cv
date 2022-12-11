@@ -365,4 +365,15 @@ body {
 	justify-content: space-between;
 }
 
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+ }
+
+ .nav-list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+ }
+
  /* end CV style */
