@@ -1,8 +1,6 @@
  /* start CV style */
 
 * {
-	margin: 0;
-	padding: 0;
 	box-sizing: border-box;
 }
 
@@ -17,6 +15,11 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	min-height: 100vh;
 	min-width: 320px;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+   font-weight: 400;
+   line-height: 1.5;
 }
 
 .container {
@@ -66,3 +69,20 @@ body {
 	opacity: 1;
  }
 
+ /* style header end */
+
+ /* style main start */
+
+ .main {
+	border: 1px solid red;
+ }
+
+ /* style main end */
+
+ /* style footer start */
+
+.footer {
+	border: 1px solid blue;
+}
+
+ /* style footer end */
