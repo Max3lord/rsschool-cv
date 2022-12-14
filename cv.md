@@ -49,4 +49,4 @@ I don't have commercial development experience yet
 
 ## English
 
-A2 (я могу читать и переводить, но плохо разговариваю)
+A2 (I can read and translate, but I don't speak well)

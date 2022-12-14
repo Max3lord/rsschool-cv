@@ -5,44 +5,138 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="icon" href="/rsschool-cv/assets/img/svg/млечный путь.ico">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="/rsschool-cv/style.css">
+	<link rel="icon" href="./rsschool-cv/assets/img/svg/space.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./rsschool-cv/style.css">
 	<title>CV</title>
 </head>
 <body>
 	<header class="header">
-		<div class="container header-container">
+		<div class="container">
 			<nav class="nav">
 				<ul class="nav-list">
-				  <li class="nav-item">
-						<a href="#aboutMe" class="nav-link">About Me</a>
-					</li>
-				  <li class="nav-item">
-						<a href="#contacts" class="nav-link">Contacts</a>
-					</li>
-				  <li class="nav-item">
-						<a href="#skills" class="nav-link">Skills</a>
-					</li>
-				  <li class="nav-item">
-						<a href="#codeExample" class="nav-link">Code Example</a>
-					</li>
-				  <li class="nav-item">
-						<a href="#education" class="nav-link">Education</a>
-					</li>
-				  <li class="nav-item">
-						<a href="english" class="nav-link">English</a>
-					</li>
+					<li class="nav-item">
+							<a href="#aboutMe" class="nav-link">About Me</a>
+						</li>
+					<li class="nav-item">
+							<a href="#contacts" class="nav-link">Contacts</a>
+						</li>
+					<li class="nav-item">
+							<a href="#skills" class="nav-link">Skills</a>
+						</li>
+					<li class="nav-item">
+							<a href="#code" class="nav-link">Code</a>
+						</li>
+					<li class="nav-item">
+							<a href="#courses" class="nav-link">Courses</a>
+						</li>
+					<li class="nav-item">
+							<a href="#english" class="nav-link">English</a>
+						</li>
 				</ul>
-			 </nav>
+			</nav>
 		</div>
 	</header>
 	<main class="main">
-		<h1>Hello World</h1>
+		<div class="container main-container">
+			<section class="section section-profile" id="profile">
+				<img class="section-profile__photo" src="./assets/img/photo.jpg" alt="My photo">
+				<div class="section-profile__container">
+					<h1 class="section-title__profile">Maxim Pavlov</h1>
+					<h3 class="section-title">Junior Front-end Developer</h3>
+				</div>
+			</section>
+			<section class="section" id="aboutMe">
+				<h2 class="section-title">About Me</h2>
+				<p>
+					I am currently studying programming
+					build a career in the IT field.
+					I am fond of sports, I devote my free time to studying and studying.
+					With all responsibility I approach any business, independent, sociable, I can
+					find a common language with people, always happy to help, able to restrain emotions,
+					self-critical, I know the value of time.
+				</p>
+			</section>
+			<section class="section" id="contacts">
+				<h2 class="section-title">Contacts</h2>
+				<ul class="main-list__contacts">
+					<li class="main-item__contacts">
+						Location: Ekaterinburg, Russia
+					</li>
+					<li class="main-item__contacts">
+						Phone: 8 952 136 92 55
+					</li>
+					<li class="main-item__contacts">
+						Email: max3.pav.loff@gmail.com
+					</li>
+					<li class="main-item__contacts">
+						GitHub: Max3lord
+					</li>
+				</ul>
+			</section>
+			<section class="section" id="skills">
+				<h2 class="section-title">Skills</h2>
+				<ul class="main-list__skills">
+					<li class="main-item__skills">
+						HTML
+					</li>
+					<li class="main-item__skills">
+						CSS/SASS
+					</li>
+					<li class="main-item__skills">
+						JavaScript (Basic)
+					</li>
+					<li class="main-item__skills">
+						Git
+					</li>
+				</ul>
+			</section>
+			<section class="section" id="code">
+				<h2 class="section-title">Code</h2>
+				<pre class="pre">
+					<code>
+ function mystery() {
+  var results = {sanity: 'Hello'};
+  return results;
+}
+					</code>
+				</pre>
+			</section>
+			<section class="section" id="courses">
+				<h2 class="section-title">Courses</h2>
+				<ul class="main-list__education">
+					<li class="main-item__education">
+						FreeCodeCamp
+					</li>
+					<li class="main-item__education">
+						app.rs.school
+					</li>
+					<li class="main-item__education">
+						www.codewars.com
+					</li>
+					<li class="main-item__education">
+						https://learn.javascript.ru/
+					</li>
+				</ul>
+			</section>
+			<section class="section" id="english">
+				<h2 class="section-title">English</h2>
+				<p>
+					A2 (I can read and translate, but I don't speak well)
+				</p>
+			</section>
+		</div>
 	</main>
 	<footer class="footer">
-		<div class="container">
-			<h1>Hello World</h1>
+		<div class="container footer-container">
+			<div class="github-link__container">
+				<span class="footer-date">© 2022</span>
+				<a href="https://github.com/Max3lord" class="github-link">Max3lord</a>
+			</div>
+				<a href="https://rs.school/js/" class="footer-logo">
+					<img src="./rsschool-cv/assets/img/svg/rs_school_js.svg" alt="logo-rs-school">
+				</a>
 		</div>
 	</footer>
 </body>
