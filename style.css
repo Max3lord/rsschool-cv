@@ -1,0 +1,68 @@
+ /* start CV style */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-family: 'Montserrat', sans-serif;
+	min-height: 100vh;
+	min-width: 320px;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	min-height: 50px;
+ }
+
+ /* style header start */
+
+ .header {
+	background-color: olive;
+ }
+
+ .nav {
+	width: 100%;
+ }
+
+ .nav-list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+ }
+
+ .nav-link {
+	position: relative;
+	padding: 0 20px;
+	line-height: 50px;
+	text-decoration: none;
+	color: white;
+ }
+
+ .nav-link::after {
+	content: "";
+	position: absolute;
+	left: 12px;
+	bottom: -5px;
+	width: calc(100% - 24px);
+	height: 2px;
+	background-color: orange;
+	opacity: 0;
+	transition: .5s;
+ }
+
+ .nav-link:hover::after {
+	opacity: 1;
+ }
+
