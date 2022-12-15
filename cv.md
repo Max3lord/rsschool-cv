@@ -2,13 +2,6 @@
 
 # Maxim Pavlov
 
-## Contacts
-
-- Location: Ekaterinburg, Russia
-- Phone: 8 952 136 92 55
-- Email: max3.pav.loff@gmail.com
-- GitHub: Max3lord
-
 ## About Me
 
 I am currently studying programming
@@ -18,6 +11,13 @@ With all responsibility I approach any business, independent, sociable, I can
 find a common language with people, always happy to help, able to restrain emotions,
 self-critical, I know the value of time.
 
+## Contacts
+
+- Location: Ekaterinburg, Russia
+- Phone: 8 952 136 92 55
+- Email: max3.pav.loff@gmail.com
+- GitHub: Max3lord
+
 ## Skills
 
 - HTML
@@ -25,7 +25,7 @@ self-critical, I know the value of time.
 - JavaScript (Basic)
 - Git
 
-## Code Example
+## Code
 
 ```
 function mystery() {
@@ -35,17 +35,20 @@ function mystery() {
  }
 ```
 
-## Experience
-
-I don't have commercial development experience yet
-
 ## Education
 
-- Courses:
-  - FreeCodeCamp
-  * app.rs.school
-  * www.codewars.com
-  * https://learn.javascript.ru/
+Ural College of Real Estate and Management
+
+## Courses
+
+- FreeCodeCamp
+- app.rs.school
+- www.codewars.com
+- https://learn.javascript.ru/
+
+## Project
+
+https://max3lord.github.io/rsschool-cv/
 
 ## English
 

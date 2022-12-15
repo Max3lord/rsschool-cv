@@ -13,7 +13,6 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	font-family: 'Lato', sans-serif;
-	font-family: 'Montserrat', sans-serif;
 	min-height: 100vh;
 	min-width: 320px;
 	margin: 0;
@@ -130,6 +129,16 @@ body {
 	padding: 0;
 	margin: 0;
  }
+
+ .main-link__project {
+	text-decoration: none;
+	color: #7296f2;
+ }
+
+ .main-link__project:hover {
+	opacity: .6;
+ }
+
  /* style main end */
 
  /* style footer start */
@@ -174,7 +183,7 @@ body {
 	content: "";
 	position: absolute;
 	left: 12px;
-	bottom: 4px;
+	bottom: 8px;
 	width: calc(100% - 24px);
 	height: 2px;
 	background-color: white;
